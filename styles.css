@@ -1,0 +1,48 @@
+body
+{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 50px;
+    text-align: center;
+}
+
+button
+{
+    background-color: aqua;
+    border: 0px;
+
+    margin: 5px;
+
+    width: 50px;
+    height: 50px;
+
+}
+
+h1,h2, p
+{
+    text-transform: uppercase;
+}
+
+p 
+{
+    display: block;
+}
+
+#win 
+{
+    font-size: 16px;
+    text-transform: uppercase;
+}
+
+#app 
+{
+    display: block;
+    width: 500px;
+    height: 500px;
+}
+#table
+{
+    display: inline-block;
+    align-items: center;
+    text-align: center;
+}
+
