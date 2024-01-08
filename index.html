@@ -1,22 +1,32 @@
 <!DOCTYPE html>
-<html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Jogo da Velha</title>
-    <link rel="stylesheet" href="styles.css">
-</head>
-<body>
-    <div id="app">
-        <div id="head">
-        </div>
-        <div id="table">            
-          
-       </div>
-       <div id="text">
-
-       </div>
-    </div>
+    <link rel="stylesheet" href="styles.css" />
     <script src="scripts.js"></script>
-</body>
+  </head>
+  <body>
+    <head>
+      <h1>Jogo da velha</h1>
+      <div class="timeplayer">
+        <div class="player">
+          <h2>Vez do jogador:</h2>
+          <p></p>
+        </div>
+      </div>
+    </head>
+    <main>
+      <div class="table">
+        <div class="cards"></div>
+      </div>
+      <div class="footerTable">
+        <button onclick="clearTable()">Limpar tabuleiro</button>
+      </div>
+    </main>
+    <footer>
+      <p>Desenvolvido por Priscila Zeferino</p>
+    </footer>
+  </body>
 </html>

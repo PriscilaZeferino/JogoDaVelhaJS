@@ -1,48 +1,68 @@
-body
-{
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    margin: 50px;
-    text-align: center;
+body {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  background-color: black;
+  color: #f5f5f5;
+
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
 }
 
-button
-{
-    background-color: aqua;
-    border: 0px;
-
-    margin: 5px;
-
-    width: 50px;
-    height: 50px;
-
+.timeplayer .player {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
 }
 
-h1,h2, p
-{
-    text-transform: uppercase;
+.timeplayer .player p {
+  padding-left: 10px;
+  font-size: 30px;
 }
 
-p 
-{
-    display: block;
+.table {
+  background-color: rgba(77, 76, 76, 0.459);
+  width: 450px;
+  height: 450px;
+
+  display: flex;
+  text-align: center;
+  align-items: center;
 }
 
-#win 
-{
-    font-size: 16px;
-    text-transform: uppercase;
+.cards {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
 }
 
-#app 
-{
-    display: block;
-    width: 500px;
-    height: 500px;
-}
-#table
-{
-    display: inline-block;
-    align-items: center;
-    text-align: center;
+.cards button {
+  width: 135px;
+  height: 135px;
+  font-size: 100px;
+  white-space: nowrap;
 }
 
+.footerTable {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+}
+
+.footerTable button {
+  background-color: rgba(77, 76, 76, 0.459);
+  color: #f5f5f5;
+
+  padding: 10px;
+  margin-top: 10px;
+
+  border: none;
+}
+
+.footerTable button:hover {
+  background-color: rgba(41, 39, 39, 0.459);
+  color: rgb(34, 202, 53);
+}
