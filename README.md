@@ -10,7 +10,7 @@ O projeto **JogoDaVelhaJS** consiste na construção do clássico tic tac toe ut
 - [Ferramentas/Tecnologias Utilizadas](#ferramentastecnologias-utilizadas)
 - [Como Acessar o Resultado](#como-acessar-o-resultado)
 - [Status do Projeto](#status-do-projeto)
-- [Informações de Contato](#informações-de-contato)
+- [Contato](#contato)
 
 
 ## Objetivo
